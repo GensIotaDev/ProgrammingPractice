@@ -1,15 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <LangVersion>13</LangVersion>
     </PropertyGroup>
-
-    <ItemGroup>
-      <Reference Include="Toolbox">
-        <HintPath>..\..\Toolbox\Toolbox\bin\Debug\net8.0\Toolbox.dll</HintPath>
-      </Reference>
-    </ItemGroup>
 
 </Project>
